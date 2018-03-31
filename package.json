@@ -1,18 +1,21 @@
 {
-  "name": "laundrymann",
+  "name": "hello-chatconnector",
   "version": "1.0.0",
-  "description": "LaundryMann Eve",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "test": "Hello, My name is Eve...."
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "azure-publish": "node publish.js"
   },
-  "keywords": [
-    "Eve"
-  ],
   "author": "Sulaiman",
   "license": "ISC",
   "dependencies": {
-    "botbuilder": "^3.14.1",
-    "restify": "^7.1.0"
+    "botbuilder": "^3.13.1",
+    "botbuilder-azure": "^3.0.4",
+    "restify": "^5.0.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0",
+    "zip-folder": "^1.0.0"
   }
 }
