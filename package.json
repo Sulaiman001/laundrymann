@@ -1,0 +1,18 @@
+{
+  "name": "laundrymann",
+  "version": "1.0.0",
+  "description": "LaundryMann Eve",
+  "main": "index.js",
+  "scripts": {
+    "test": "Hello, My name is Eve...."
+  },
+  "keywords": [
+    "Eve"
+  ],
+  "author": "Sulaiman",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.14.1",
+    "restify": "^7.1.0"
+  }
+}
